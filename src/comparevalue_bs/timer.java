@@ -15,7 +15,7 @@ public class timer {
 	        Date time = getTime();
 	        System.out.println("start R time=" + time);
 	        timer = new Timer();
-	        timer.schedule(new Task(), time ,5000);
+	        timer.schedule(new Task(), time ,1000*60*60*24);
 	    }
 	    
 	    public Date getTime(){
